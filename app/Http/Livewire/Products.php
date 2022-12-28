@@ -211,21 +211,21 @@ final class Products extends PowerGridComponent
      * @return array<int, Button>
      */
 
-    /*
+   
     public function actions(): array
     {
        return [
            Button::make('edit', 'Edit')
-               ->class('bg-indigo-500 cursor-pointer text-white px-3 py-2.5 m-1 rounded text-sm')
+               ->class('btn btn-primary cursor-pointer btn-sm text-white px-3 py-2.5 m-1  text-sm')
                ->route('product.edit', ['product' => 'id']),
 
            Button::make('destroy', 'Delete')
-               ->class('bg-red-500 cursor-pointer text-white px-3 py-2 m-1 rounded text-sm')
+               ->class('btn btn-danger btn-sm cursor-pointer text-white px-3 py-2 m-1  text-sm')
                ->route('product.destroy', ['product' => 'id'])
                ->method('delete')
         ];
     }
-    */
+    
 
     /*
     |--------------------------------------------------------------------------
